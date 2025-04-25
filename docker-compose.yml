@@ -1,0 +1,40 @@
+services:
+  apache:
+    image: php:8.3-apache
+    container_name: apache-container2
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    networks:
+      - mynetwork
+    depends_on:
+      - mysql
+    environment:
+      - VIRTUAL_HOST=zenblog.loc
+      - VIRTUAL_PORT=80
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-container2
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: my_database
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpassword
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - mynetwork
+    ports:
+      - "3307:3306"
+
+volumes:
+  mysql-data:
+
+networks:
+  mynetwork:
+    driver: bridge

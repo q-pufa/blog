@@ -1,0 +1,30 @@
+[2025-03-15 11:18:04] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'user'@'172.18.0.3' (using password: YES)
+[2025-03-15 11:18:10] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'user'@'172.18.0.3' (using password: YES)
+[2025-03-26 10:48:19] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'post-1' for key 'posts.posts_slug_uindex'
+[2025-03-26 14:03:23] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:25:32] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:26:17] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:27:56] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:29:04] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:29:34] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:33:45] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:35:28] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:40:03] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 14:59:18] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 15:01:19] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 15:23:42] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list'
+[2025-03-26 17:06:29] Error uploading file
+[2025-04-02 13:19:13] Error uploading file
+[2025-04-02 13:19:13] Error uploading file
+[2025-04-04 20:56:47] DB Error: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[2025-04-04 20:57:37] DB Error: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[2025-04-04 21:06:42] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[2025-04-04 21:07:31] DB Error: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[2025-04-06 16:40:33] DB Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMusers WHERE email = 'me@mydomain.com'' at line 1
+[2025-04-06 16:40:55] DB Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMusers WHERE email = 'me@mydomain.com'' at line 1
+[2025-04-06 16:42:29] DB Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMusers WHERE email = 'user2@mail.com'' at line 1
+[2025-04-14 19:16:29] Mail Error: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[2025-04-21 14:12:21] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'repassword' in 'field list'
+[2025-04-21 14:13:40] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user1@mail.com' for key 'users.users_pk_2'
+[2025-04-21 14:16:43] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user1@mail.com' for key 'users.users_pk_2'
+[2025-04-22 18:00:47] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_at' in 'order clause'
